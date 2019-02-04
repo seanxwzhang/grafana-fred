@@ -5,5 +5,7 @@ export class ChangeMyNameConfigCtrl {
   current: any;
 
   constructor($scope) {
+    this.current.access = 'proxy';
+    this.current.url = 'https://api.stlouisfed.org';
   }
 }

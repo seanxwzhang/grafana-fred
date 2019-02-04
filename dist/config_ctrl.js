@@ -6,6 +6,8 @@ System.register([], function(exports_1) {
         execute: function() {
             ChangeMyNameConfigCtrl = (function () {
                 function ChangeMyNameConfigCtrl($scope) {
+                    this.current.access = 'proxy';
+                    this.current.url = 'https://api.stlouisfed.org';
                 }
                 ChangeMyNameConfigCtrl.templateUrl = 'partials/config.html';
                 return ChangeMyNameConfigCtrl;

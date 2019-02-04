@@ -5,6 +5,8 @@ export default class ChangeMyNameDatasource {
     private $q;
     id: number;
     name: string;
+    fred_api_key: string;
+    proxy_url: string;
     /** @ngInject */
     constructor(instanceSettings: any, backendSrv: any, templateSrv: any, $q: any);
     query(options: any): void;
